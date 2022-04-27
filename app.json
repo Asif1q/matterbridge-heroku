@@ -14,30 +14,37 @@
        "description": "Version of matterbridge to download and deploy",
        "value": "0.10.2"
     },
-    "IRC_SERVER": {
-     "description": "Mattermost channel to bridge",
-      "value": ""
+    "MATTERBRIDGE_WHATSAPP_MYGROUP_NUMBER" : {
+    "value" : "+919249701001"
+    },
+    "MATTERBRIDGE_WHATSAPP_MYGROUP_SESSIONFILE" : { 
+    "value" : "session_9249701001.gob"
+    },
+     
+     "MATTERBRIDGE_WHATSAPP_MYGROUP_QRONWHITETERMINAL" : { {
+      "value": "false"
+    },
+     "MATTERBRIDGE_WHATSAPP_MYGROUP_REMOTENICKFORMAT" : {
+    "value": "[{PROTOCOL}] @{NICK}: "
+     },
+    "MATTERBRIDGE_TELEGRAM_MYGROUP_TOKEN" : {
+    "value" : "1318928080:AAEJ8W43gCiKTTRUv1YbX8nkZFTTMATTERBRIDGE_WHATSAPP_MYGROUPS1GhLw"
+    },
+   MATTERBRIDGE_TELEGRAM_MYGROUP_SERVER" : {
+     "value" : "mark"
+    },
 
-      "description": "Mattermost channel to bridge",
-      "value": ""
+   "MATTERBRIDGE_TELEGRAM_MYGROUP_REMOTENICKFORMAT" : {
+      "value" : "({PROTOCOL}) @{NICK} "
+},
 
-       "description": "Mattermost channel to bridge",
-      "value": ""
+"MATTERBRIDGE_TELEGRAM_MYGROUP_MESSAGEFORMAT" : {
+  "value" : "HTMLNick"
+},
+ "MATTERBRIDGE_TELEGRAM_MYGROUP_QUOTEFORMAT" : {
+   "value" :"{MESSAGE} (re @{QUOTENICK}: {QUOTEMESSAGE})"
+ 
 
-
-         "description": "Mattermost channel to bridge",
-      "value": ""
-
-        "description": "Mattermost channel to bridge",
-      "value": ""
-        "description": "Mattermost channel to bridge",
-      "value": ""  
-    "MATTERMOST_NO_TLS": {
-      "description": "Use http to connect to Mattermost",
-      "value": "f    
-     "MATTERMOST_CHANNEL": {
-      "description": "Mattermost channel to bridge",
-      "value": ""
     }
   }
 }                                       
