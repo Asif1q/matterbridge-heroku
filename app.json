@@ -21,38 +21,8 @@
     "MATTERBRIDGE_WHATSAPP_MYGROUP_SESSIONFILE" : { 
       "description": "Version of matterbridge to download and deploy",
      "value" : "session_9249701001.gob"
-    },
-     
-     "MATTERBRIDGE_WHATSAPP_MYGROUP_QRONWHITETERMINAL" : { {
-        "description": "Version of matterbridge to download and deploy",
-       "value": "false"
-    },
-     "MATTERBRIDGE_WHATSAPP_MYGROUP_REMOTENICKFORMAT" : {
-        "description": "Version of matterbridge to download and deploy",
-       "value": "[{PROTOCOL}] @{NICK}: "
-     },
-    "MATTERBRIDGE_TELEGRAM_MYGROUP_TOKEN" : {
-        "description": "Version of matterbridge to download and deploy",
-       "value" : "1318928080:AAEJ8W43gCiKTTRUv1YbX8nkZFTTMATTERBRIDGE_WHATSAPP_MYGROUPS1GhLw"
-    },
-   "MATTERBRIDGE_TELEGRAM_MYGROUP_SERVER" : {
-        "description": "Version of matterbridge to download and deploy",
-       "value" : "mark"
-    },
 
-   "MATTERBRIDGE_TELEGRAM_MYGROUP_REMOTENICKFORMAT" : {
-     "description": "Version of matterbridge to download and deploy",
-      "value" : "({PROTOCOL}) @{NICK} "
-},
 
-"MATTERBRIDGE_TELEGRAM_MYGROUP_MESSAGEFORMAT" : {
-     "description": "Version of matterbridge to download and deploy",
-    "value" : "HTMLNick"
-},
- "MATTERBRIDGE_TELEGRAM_MYGROUP_QUOTEFORMAT" : {
-      "description": "Version of matterbridge to download and deploy",
-    "value" :"{MESSAGE} (re @{QUOTENICK}: {QUOTEMESSAGE})"
- 
 
     }
   }
